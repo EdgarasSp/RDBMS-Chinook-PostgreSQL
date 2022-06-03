@@ -16,6 +16,8 @@ cursor = connection.cursor()
 # Query 3 - select only "Queen" from the "Artist" table
 # cursor.execute('SELECT * FROM "Artist" WHERE "Name" = %s', ["Queen"])
 
+# ES note: %s is string placeholder and ["Queen"] is string values to be used in placeholder 
+
 # Query 4 - select only by "ArtistId" #51 from the "Artist" table
 # cursor.execute('SELECT * FROM "Artist" WHERE "ArtistId" = %s', [51])
 
